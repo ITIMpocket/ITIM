@@ -9,7 +9,13 @@
 }
 
 body {
-    background: white;
+    background-image: url('https://t4.ftcdn.net/jpg/05/25/61/13/360_F_525611364_JQsVmmfIw9fGzaqGO9cVFDrBtluGZLvo.webp');
+    background-color: gray;
+    backdrop-filter: blur(10px);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
