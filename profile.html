@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIMpocket</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="ko.png">
+</head>
+<body>
+    <header>
+        <div class="logo">ITIMpocket</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="profile.html" class="active">Profile</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="skill.html">Skill</a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+<section class="banner">
+        <div class="banner-info">
+            <img src="ko.png" alt="">
+            <h1>ไก่กลม(ตัวจริง)</h1>
+            <p>เดี๋ยวทำเกมมาให้เล่น</p>
+            <div class="Name">
+                <h2>ชื่อ:</h2>
+                <p>ไอติม</p>
+            </div>
+        </div>
+</section>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>
